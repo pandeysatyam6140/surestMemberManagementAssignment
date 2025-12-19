@@ -59,7 +59,6 @@ class MemberTest {
         Member m2 = new Member();
         m1.setId(UUID.randomUUID());
         m2.setId(UUID.randomUUID());
-
         assertNotEquals(m1, m2);
         assertNotEquals(m1, null);
         assertNotEquals(m1, "string");
