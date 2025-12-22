@@ -51,10 +51,12 @@
 
 
 ### Code coverage report
-![CodeCoverage](docs/images/CodeCoverage.png)
+[CodeCoverage](docs/images/CodeCoverageReport.png)
+
+
+### Build Successful 
+[Running](docs/images/BuildSuccessful.png)
 
 
 ### Application running screenshot
-![Running](docs/images/ApplcationStarted.png)
-
-
+[Running](docs/images/AppRunning.png)
