@@ -10,31 +10,28 @@
 - POST /api/v1/auth/login
 
 ## Features
-- CRUD operations for Member Management API
+- CRUD operations for Member Management APIs
 - JWT-based authentication and role-based authorization
 - In-memory caching to improve response performance
 - Comprehensive Unit testing with Mockito and JaCoCo coverage reporting
-- Integration testing using Testcontainers (Docker-based PostgreSQL)
-- Centralized exception handling with global error responses
-- Logging with unique request trace for debugging
-- API documentation using Swagger/OpenAPI (auto-generated UI)
+- Integration testing using Testcontainers
+- Centralized exception handling with global exception handler
+- Logging with unique request traceID for debugging
 
-## Technologies
+## Technologies used
 - Java 17
 - Spring Boot 3.5.6
 - PostgreSQL 17.6
-- Springdoc OpenAPI (Swagger UI)
 - Flyway (Database migration)
 - JWT (JSON Web Tokens)
-- Springdoc OpenAPI (Swagger UI)
 - Docker + Testcontainers (Integration testing)
 - JUnit 5 & Mockito (Unit testing)
-- JaCoCo (Test coverage reporting)
+- JaCoCo
 
-## Tools
+## Tools used
 - Lombok
-- JaCoCo (Code coverage)
-- AssertJ (Unit testing assertions)
+- JaCoCo
+- AssertJ
 - JUnit 5 / Spring Boot Test / Spring Security Test
 - Postman
 - IntelliJ IDEA
@@ -46,15 +43,14 @@
 - Java Plugin
 - JaCoCo Plugin 0.8.12
 
-## Screenshots
-
+## Screenshots:-
 
 
 ### Code coverage report
 [CodeCoverage](docs/images/CodeCoverageReport.png)
 
 
-### Build Successful 
+### Build Successful Screenshot
 [Running](docs/images/BuildSuccessful.png)
 
 
